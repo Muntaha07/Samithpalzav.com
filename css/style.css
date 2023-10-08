@@ -17,7 +17,7 @@
   --pistachio_50: hsla(86, 45%, 54%, 0.5);
   --baby-powder: hsl(86, 41%, 97%);
   --light-gray: hsl(0, 0%, 80%);
-  --pistachio: hsl(86, 45%, 54%);
+  --pistachio:#F37021;
   --platinum: hsl(0, 0%, 91%);
   --cultured: hsl(0, 0%, 94%);
   --white-60: hsla(0, 0%, 100%, 0.6);
@@ -255,7 +255,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: transparent;
+  background-color: #bd4444;
   padding-block: 18px;
   z-index: 4;
 }
@@ -381,7 +381,8 @@ body {
 
 .hero {
   
-  background-image: url("/img-1/1309202301454951311092023041108498WVI-Home-Page-Banner-ch-sponsp_1280x580_160523_B.jpg");
+  /* background-image: url("/img-1/1309202301454951311092023041108498WVI-Home-Page-Banner-ch-sponsp_1280x580_160523_B.jpg"); */
+  background-image: url("https://www.worldvision.in/CMSAdmin/Uploads/1309202301454951311092023041108498WVI-Home-Page-Banner-ch-sponsp_1280x580_160523_B.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -392,6 +393,7 @@ body {
 
 
   color: var(--white);
+  
   min-height: 700px;
   padding-block: 120px 60px;
   display: grid;
@@ -718,9 +720,11 @@ body {
 
 .card-wrapper-text .green { color: var(--pistachio); }
 
+
 .card-wrapper-text .yellow { color: var(--bright-yellow-crayola); }
 
-.card-wrapper-text .cyan { color: var(--medium-turquoise); }
+.card-wrapper-text .cyan { color: #9E9E9E; }
+
 
 
 
@@ -1196,7 +1200,9 @@ body {
    */
 
   .hero {
-    background-image: url("/img-1/1309202301454951311092023041108498WVI-Home-Page-Banner-ch-sponsp_1280x580_160523_B.jpg");
+    /* background-image: url("/img-1/1309202301454951311092023041108498WVI-Home-Page-Banner-ch-sponsp_1280x580_160523_B.jpg"); */
+    background-image: url("https://www.worldvision.in/CMSAdmin/Uploads/1309202301454951311092023041108498WVI-Home-Page-Banner-ch-sponsp_1280x580_160523_B.jpg");
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -1408,6 +1414,7 @@ body {
   .hero {
     padding-block: 200px 325px;
     background-position: center;
+   
   }
 
 
@@ -1471,10 +1478,11 @@ body {
 
 @media (max-width:600px){
   .hero {
-    background-image: url("/img-1/1309202301454951311092023041108498WVI-Home-Page-Banner-ch-sponsp_1280x580_160523_B.jpg");
+    /* background-image: url("/img-1/1309202301454951311092023041108498WVI-Home-Page-Banner-ch-sponsp_1280x580_160523_B.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  
   
   }
 
