@@ -17,7 +17,7 @@
   --pistachio_50: hsla(86, 45%, 54%, 0.5);
   --baby-powder: hsl(86, 41%, 97%);
   --light-gray: hsl(0, 0%, 80%);
-  --pistachio:#F37021;
+  --pistachio: hsl(86, 45%, 54%);
   --platinum: hsl(0, 0%, 91%);
   --cultured: hsl(0, 0%, 94%);
   --white-60: hsla(0, 0%, 100%, 0.6);
@@ -255,7 +255,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #bd4444;
+  background-color: transparent;
   padding-block: 18px;
   z-index: 4;
 }
@@ -392,7 +392,6 @@ body {
 
 
   color: var(--white);
-  
   min-height: 700px;
   padding-block: 120px 60px;
   display: grid;
@@ -719,11 +718,9 @@ body {
 
 .card-wrapper-text .green { color: var(--pistachio); }
 
-
 .card-wrapper-text .yellow { color: var(--bright-yellow-crayola); }
 
-.card-wrapper-text .cyan { color: #9E9E9E; }
-
+.card-wrapper-text .cyan { color: var(--medium-turquoise); }
 
 
 
@@ -1478,7 +1475,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-  
   
   }
 
